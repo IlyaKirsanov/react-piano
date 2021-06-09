@@ -1,0 +1,14 @@
+.app {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.content{
+	/*--offset: calc(var(--footer-height) + var(--logo-height));*/
+	/*min-height: calc(95vh - var(--offset));*/
+	display: flex;
+	flex: 1 0 auto;
+	justify-content: center;
+	align-items: center;
+}
